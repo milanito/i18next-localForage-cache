@@ -1,6 +1,9 @@
 {
   "name": "i18next-localforage-cache",
-  "version": "1.0.1",
+  "version": "1.0.2",
+  "files": [
+    "dist"
+  ],
   "description": "This is a i18next cache layer to be used in the browser. It will load and cache resources from localStorage.",
   "main": "dist/i18next-localForage-cache.js",
   "repository": "git@github.com:milanito/i18next-localForage-cache.git",
