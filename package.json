@@ -1,0 +1,24 @@
+{
+  "name": "i18next-localForage-cache",
+  "version": "1.0.0",
+  "description": "This is a i18next cache layer to be used in the browser. It will load and cache resources from localStorage.",
+  "main": "dist/i18next-localForage-cache.js",
+  "repository": "git@github.com:milanito/i18next-localForage-cache.git",
+  "author": "Matthieu Rondeau <matt@matthieurondeau.fr>",
+  "license": "MIT",
+  "scripts": {
+    "build": "./node_modules/.bin/babel src -d dist"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.0"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "debounce": "^1.0.2",
+    "localforage": "^1.5.0",
+    "lodash": "^4.17.4",
+    "moment": "^2.18.1"
+  }
+}
